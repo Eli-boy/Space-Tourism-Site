@@ -87,6 +87,9 @@ p{
 .last{
     padding-bottom: 7px;
 }
+.dropdown-menu{
+        display: none;
+    }
 @media only screen and (max-width:600px){
     body{
         font-size: 12px;
