@@ -116,6 +116,9 @@ hr{
     margin-top: -30px;
     width: 350px;
 }
+.dropdown-menu{
+        display: none;
+    }
 @media only screen and (max-width:600px) {
     body{
         background: url(./destination/background-destination-mobile.jpg);
