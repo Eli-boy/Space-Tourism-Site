@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-body{
+.home{
     background: url(./home/background-home-desktop.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -84,14 +84,241 @@ p{
 .dropdown-menu{
     display: none;
 }
+/*DESTINATION*/
+.destination{
+    background-image: url(./destination/background-destination-desktop.jpg);
+    background-size: 100%;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+.background-img{
+    margin-left:150px;
+    margin-top: 75px;
+}
+.des-h2{
+    margin-left:150px;
+    padding-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.num{
+    letter-spacing: 2px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 50%;
+}
+#content{
+    margin-left: 700px;
+    margin-top: -500px;
+}
+.list{
+    padding-bottom: 50px;
+    display: flex;
+}
+.list a{
+    text-decoration: none;
+    color: #fff;
+}
+.list li{
+    display: flex;
+    padding-right: 30px;
+    letter-spacing: 5px;
+}
+.list li:hover{
+    text-decoration: underline;
+}
+.des-h1{
+    font-size: 5em;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+.des-p{
+    padding-bottom: 100px;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+}
+.distance{
+    display: flex;
+}
+h3{
+    padding-right: 100px;
+    padding-top: 20px;
+}
+h3:nth-child(1){
+    font-size: 0.7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3:nth-child(2){
+    font-size: 0.7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.avg{
+    display: block;
+    font-size: 1.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.est{
+    display: block;
+    font-size: 1.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+hr{
+    margin-top: -30px;
+    width: 350px;
+}
+/*CREW*/
+.crew{
+    background: url(./crew/background-crew-desktop.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+.crew-h3{
+    margin-left: 100px;
+    padding-top: 250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.crew-num{
+    opacity: 50%;
+    font-size: 3em;
+}
+.back-img{
+    margin-left: 700px;
+    width: 100px;
+    height: 200px;
+    margin-top: -40px;
+}
+#main{
+    margin-top: -100px;
+    margin-left: 100px;
+}
+.crew-h2{
+    padding-bottom: 30px;
+    font-family: serif;
+    opacity: 50%;
+}
+.crew-h1{
+    padding-bottom: 30px;
+    font-family:serif;
+    font-size: 3em;
+    letter-spacing: 1.5px;
+}
+.crew-p{
+    letter-spacing: 1.2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.82em;
+    line-height: 25px;
+}
+/*TECHNOLOGY*/
+.technology{
+    background: url(./technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    margin-top: -50px;
+}
+.tech-h3{
+    margin: 10px 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1.2px;
+}
+.tech-num{
+    opacity: 50%;
+    font-size: 3em;
+}
+.rocket a{
+    margin-left: 730px;
+
+}
+.button{
+    margin-top: -400px;
+    margin-left: 80px;
+    display: grid;
+    gap: 30px;
+}
+.fst:hover{
+    background-color: #fff;
+    color: #000;
+}
+.fst{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 2em;
+    font-weight: thin;
+}
+.sec{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 2em;
+    font-weight: thin;
+}
+.sec:hover{
+    background-color: #fff;
+    color: #000;
+}
+.thr{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: black;
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 2em;
+    font-weight: thin;;
+}
+.thr:hover{
+    background-color: #fff;
+    color: #000;
+}
+#container{
+    margin-left: 220px;
+    margin-top: -250px;
+}
+.first{
+    font-size: 1.0em;
+    font-family: 'Roboto thin';
+    opacity: 50%;
+    padding-bottom: 10px;
+}
+.tech-h2{
+    font-size: 3em;
+    font-family: 'Roboto thin';
+    padding-bottom: 20px;
+    font-weight: thin;
+    letter-spacing: 2px;
+}
+.tech-p{
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
 @media only screen and (max-width:600px){
-    body{
+    .home{
         background: url(./home/background-home-mobile.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         color: #fff;
         width: 100%;
         height: 100vh;
+        margin-bottom: -50px;
     }
     .nav-bar{
         background: url(./shared/icon-hamburger.svg);
@@ -136,6 +363,138 @@ p{
     .explore a{
         position: relative;
         top: -25px;
+    }
+    /*DESTINATION*/
+    .destination{
+        background-image: url(./destination/background-destination-mobile.jpg);
+        background-size: 300%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        margin-top: -150px;
+    }
+    .background-img{
+        display: none;
+    }
+    #content{
+        margin-left: 30px;
+        margin-top: -10px;
+    }
+    .list{
+        padding-bottom: 30px;
+        padding-top: 50px;
+        display: flex;
+    }
+    .des-h2{
+        margin-left:20px;
+        padding-top: 75px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+    }
+    .background-img{
+        display: none;
+    }
+    .distance{
+        display: flex;
+        margin-top: -80px;
+    }
+    hr{
+        display: none;
+    }
+    .des-p{
+        padding-bottom: 100px;
+        font-size: 1.0em;
+        letter-spacing: 2px;
+    }
+    .des-h1{
+        font-size: 5em;
+        padding-bottom: 10px;
+        letter-spacing: 10px;
+        font-family:'Courier New', Courier, monospace;
+    }
+    .list li{
+        display: flex;
+        padding-right: 10px;
+        letter-spacing: 5px;
+    }
+    /*CREW*/
+    .crew{
+        background: url(./crew/background-crew-mobile.jpg);
+        background-size: 300%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        color: #fff;
+    }
+    .back-img{
+        display: none;
+    }
+    #main{
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+    .crew-h1{
+        padding-bottom: 50px;
+        font-family:serif;
+        font-size: 2em;
+        letter-spacing: 1.2px;
+    }
+    .crew-h3{
+        margin-left:10px;
+        margin-top: -20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.2em;
+        padding-bottom: 70px;
+    }
+    .crew-h2{
+        padding-bottom: 50px;
+        font-family: serif;
+        opacity: 50%;
+    }
+    .crew-p{
+        letter-spacing: 1.2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.82em;
+        line-height: 25px;
+    }
+    /*TECHNOLOGY*/
+    .technology{
+        background: url(./technology/background-technology-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100vw;
+        height: 100vh;
+        color: #fff;
+        margin-top: -50px;
+    }
+    .rocket{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    #container{
+        margin-left: 50px;
+        margin-top: 150px;
+    }
+    .tech-h3{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .tech-h2{
+        font-size: 2em;
+        font-family: 'Roboto thin';
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: thin;
+        letter-spacing: 1.5px;
+    }
+    .first{
+        padding-bottom: 50px;
+        font-size: 1.0em;
+        font-family: 'Roboto thin';
+        opacity: 50%;
+
     }
     
 }
@@ -192,14 +551,13 @@ p{
      
 }
 @media only screen and (min-width:601px) and (max-width:1024px){
-    body{
+    .home{
         background: url(./home/background-home-desktop.jpg);
         background-repeat: no-repeat;
         background-size: 300%;
         color: #fff;
         width: 100vw;
         height: 100vh;
-        margin: 0 50px;
     }
     .explore{
         background-color: #fff;
@@ -240,18 +598,142 @@ p{
     .dropdown-menu{
         display: none;
     }
+     /*DESTINATION*/
+     .destination{
+        background-image: url(./destination/background-destination-tablet.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    #content{
+        margin-left: 50px;
+        margin-top: -400px
+    }
+    .background-img{
+        margin-left: 80px;
+    }
+    /*CREW*/
+    .crew{
+        background: url(./crew/background-crew-tablet.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        color: #fff;
+        margin-top: -120px;
+    }
+    .back-img{
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+    #main{
+        margin-top: 180px;
+        margin-left: 80px;
+    }
+    .crew-h3{
+        display: none;
+    }
+    /*TECHNOLOGY*/
+    .technology{
+        background: url(./technology/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        width: 100vw;
+        height: 100vh;
+        color: #fff;
+        margin-top: -150px;
+    }
+    .rocket{
+        display: none;
+    }
+    .button{
+        margin-top: 250px;
+        margin-left: 50px;
+        display: grid;
+        gap: 30px;
+    }
+    #container{
+        margin-left: 150px;
+        margin-top: -280px;
+    }
+    
 }
 @media only screen and (min-width:1024px) and (max-width:1411px){
-    body{
+    .home{
         background: url(./home/background-home-desktop.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         color: #fff;
-        width: 100%;
+        width: 100vw;
         height: 100vh;
-        
+        margin-bottom: -100px;
     }
     .dropdown-menu{
         display: none;
+    }
+    .explore{
+        background-color: #fff;
+        color: #000;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 250px;
+        top: -100px;
+        z-index: 1;
+        margin-left:200px;
+    }
+    .explore a{
+        position: relative;
+        top: -25px;
+    }
+    /*DESTINATION*/
+    .destination{
+        background-image: url(./destination/background-destination-tablet.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+    .background-img{
+        margin-left:150px;
+        margin-top: 50px;
+    }
+    .des-h2{
+        margin-left:150px;
+        padding-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+    }
+    /*CREW*/
+    .crew{
+        background: url(./crew/background-crew-tablet.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        color: #fff;
+        margin-top: -120px;
+    }
+    .back-img{
+        margin-top: -130px;
+        margin-left: 580px;
+    }
+    /*TECHNOLOGY*/
+    .technology{
+        background: url(./technology/background-technology-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: 300%;
+        width: 100vw;
+        height: 100vh;
+        color: #fff;
+        margin-top: -150px;
+    }
+    .rocket{
+        margin-top: 150px;
+        
     }
 }
