@@ -8,34 +8,100 @@
     <title>Space Tourism</title>
 </head>
 <body>
-    <header class="header">
-        <a href="home.html"><img src="shared/logo.svg" alt="logo" class="logo"></a>
-        <nav class="nav-bar">
-            <ul class="dropdown">
-                <li><a href="home.html">00 HOME</a></li>
-                <li><a href="des.html">01 DESTINATION</a></li>
-                <li><a href="crew.html">02 CREW</a></li>
-                <li><a href="tech.html">03 TECNOLOGY</a></li>
+    <div class="home">
+        <header class="header">
+            <a href="home.html"><img src="shared/logo.svg" alt="logo" class="logo"></a>
+            <nav class="nav-bar">
+                <ul class="dropdown">
+                    <li><a href="home.html">00 HOME</a></li>
+                    <li><a href="des.html">01 DESTINATION</a></li>
+                    <li><a href="crew.html">02 CREW</a></li>
+                    <li><a href="tech.html">03 TECNOLOGY</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown-menu">
+                <button class="menu-btn">Menu</button>
+                <div class="menu-content">
+                    <a href="home.html" class="link">HOME</a>
+                    <a href="des.html"  class="link">DESTINATION</a>
+                    <a href="crew.html" class="link">CREW</a>
+                    <a href="tech.html" class="link">TECNOLOGY</a>
+                </div>
+            </div>
+        </header>
+        <main id="home">
+            <p>SO, YOU WANT TO TRAVEL TO</p>
+            <h1>SPACE</h1>
+            <P>Let's face it; if you want to go to space, you might as well<br> 
+               genuinely go to outer space and not hover kind of on the <br>
+               edge of it. Well sit back and relax because we'll give you<br>
+               a trully out of this world experience!</P>
+        </main>
+        <div class="explore"><a href="https://www.space.com/" target="_blank">EXPLORE</a></div>
+    </div>
+
+    <div class="destination">
+        <h2 class="des-h2"><span class="num">01 </span> PICK YOUR DESTINATION</h2>
+        <div class="background-img">
+            <img src="destination/image-mars.png" alt="image-mars">
+        </div>
+        <div id="content">
+            <ul class="list">
+                <li><a href="">MOON</a></li>
+                <li><a href="https://mars.nasa.gov/" target="_blank">MARS</a></li>
+                <li><a href="">EUROPA</a></li>
+                <li><a href="">TITAN</a></li>
             </ul>
-        </nav>
-        <div class="dropdown-menu">
-            <button class="menu-btn">Menu</button>
-            <div class="menu-content">
-                <a href="home.html" class="link">HOME</a>
-                <a href="des.html"  class="link">DESTINATION</a>
-                <a href="crew.html" class="link">CREW</a>
-                <a href="tech.html" class="link">TECNOLOGY</a>
+            <h1 class="des-h1">MARS</h1>
+            <p class="des-p">Don't forget to pack your hiking boots. You'll need them<br>
+            to tackle Olympus Mons, the tallest planetary mountain in<br>
+            our solar system. It's two and a half times the size of<br>
+            Everest!
+            </p>
+            <hr>
+            <div class="distance">
+                <h3>AVG. DISTANCE <span class="avg"> 225 MIL. KM</span></h3>
+                <h3>EST. TRAVEL TIME <span class="est"> 9 MONTHS</span></h3>
             </div>
         </div>
-    </header>
-    <main id="home">
-        <p>SO, YOU WANT TO TRAVEL TO</p>
-        <h1>SPACE</h1>
-        <P>Let's face it; if you want to go to space, you might as well<br> 
-           genuinely go to outer space and not hover kind of on the <br>
-           edge of it. Well sit back and relax because we'll give you<br>
-           a trully out of this world experience!</P>
-    </main>
-    <div class="explore"><a href="https://www.space.com/" target="_blank">EXPLORE</a></div>
+    </div>
+    <div class="crew">
+        <h3 class="crew-h3"><span class="crew-num">02 </span> MEET YOUR CREW</h3>
+        <div class="back-img">
+            <img src="./crew/image-anousheh-ansari.png" alt="">
+        </div>
+        <div id="main">
+            <h2 class="crew-h2">FLIGHT ENGINEER</h2>
+            <h1 class="crew-h1">ANOUSHEH ANSARI</h1>
+            <p class="crew-p">Anoussheh Ansari is an Iranian American engineer and co-<br>
+            founder of Prodea Systems. Ansari was the fourth self-<br>
+            funded space tourist, the self-funded woman to fly<br>
+            to the ISS, and the first Iranian in space.
+            </p>
+        </div>
+    </div>
+    <div class="technology">
+        <h3 class="tech-h3"><span class="tech-num">03 </span> SPACE LAUNCH 101</h3>
+        <div class="rocket">
+            <a href="https://www.space.com/topics/rocket-launches" target="_blank"><img src="./technology/image-launch-vehicle-portrait.jpg" alt=""></a>
+        </div>
+        <div class="button">
+            <div class="fst">1</div>
+
+            <div class="sec">2</div>
+
+            <div class="thr">3</div>
+        </div>
+        <div id="container">
+            <p class="first">THE TERMINOLOGY...</p>
+            <h2 class="tect-h2">LAUNCH VEHICLE</h2>
+            <p class="tech-p">A launch vehicle or carrier rocket is a rocket-propelled<br>
+            vehicle used to arry a payload from Earth's surface to<br>
+            space, usually to Earth orbit or beyond. Our WEB-X<br>
+            carrier rocket is the most powerful in operation.<br>
+            Standing 150 meters tall, it's quite an awe-inspiring sight<br>
+            on the launch pad!</p>
+        </div>
+    </div>
 </body>
 </html>
