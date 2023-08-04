@@ -253,7 +253,7 @@ hr{
     font-size: 1.2em;
 }
 .rocket a{
-    margin-left: 50%;
+    margin-left: 55%;
     margin-top: -30%;
 
 }
@@ -311,8 +311,8 @@ hr{
     color: #000;
 }
 #container{
-    margin-top: -15%;
-    margin-left: 220px;
+    margin-top: -1%;
+    margin-left: 190px;
 }
 .first{
     font-size: 1.0em;
@@ -331,6 +331,7 @@ hr{
     line-height: 30px;
     letter-spacing: 1.5px;
 }
+
 @media only screen and (max-width:600px){
     .home{
         background: url(./home/background-home-mobile.jpg);
@@ -754,7 +755,7 @@ hr{
     }
     .back-img{
         position: relative;
-        top: -35%;
+        top: -30%;
         left: 0;
        /* margin-top: -20%;*/
         margin-left: 580px;
@@ -785,7 +786,7 @@ hr{
     }
     .rocket{
         position: relative;
-        top: 8%;
+        top: -1%;
     }
     .tech-h3{
         position:relative;
@@ -801,4 +802,5 @@ hr{
         position: relative;
         top: -40%;
     }
+
 }
