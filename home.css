@@ -177,10 +177,8 @@ hr{
     color: #fff;
 }
 .crew-h3{
-    position: relative;
-    top: -20%;
-    left: 15%;
-    /*margin-left: 100px;*/
+    margin-left: 10%;
+    margin-top: -5%;
     padding-top: 250px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2em;
@@ -197,20 +195,14 @@ hr{
     font-size: 1.2em;
 }
 .back-img{
-    position: relative;
-    top: -20%;
-    left: 50%;
-    /*margin-left: 700px;*/
+    margin-left: 50%;
     width: 100px;
     height: 200px;
-    /*margin-top: -40px;*/
+    margin-top: -5%;
 }
 #main{
-    position: relative;
-    top: -20%;
-    left: 10%;
-    /*margin-top: -100px;*/
-    margin-left: 100px;
+    margin-top: 2%;
+    margin-left: 10%;
 }
 .crew-h2{
     padding-bottom: 30px;
@@ -227,7 +219,7 @@ hr{
 }
 .crew-p{
     position: relative;
-    top: -50px;
+    top: -20px;
     letter-spacing: 1.2px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.82em;
@@ -235,7 +227,6 @@ hr{
 }
 /*TECHNOLOGY*/
 .technology{
-    position: relative;
     /*top: 10%;*/
     background: url(./technology/background-technology-desktop.jpg);
     background-repeat: no-repeat;
@@ -246,10 +237,7 @@ hr{
    margin-top: -50px;
 }
 .tech-h3{
-    position: relative;
-    top: 2%;
-    left: 8%;
-    /*margin: 10px 100px;*/
+    margin: 50px 100px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5em;
     letter-spacing: 1.2px;
@@ -265,16 +253,15 @@ hr{
     font-size: 1.2em;
 }
 .rocket a{
-    position: relative;
-    top: 50%;
-    left: 50%;
+    margin-left: 50%;
+    margin-top: -30%;
 
 }
 .button{
-    position: relative;
-    left: 10%;
+    /*position: relative;*/
+    left: 8%;
     margin-top: -400px;
-    /*margin-left: 80px;*/
+    margin-left: 80px;
     display: grid;
     gap: 30px;
 }
@@ -324,10 +311,8 @@ hr{
     color: #000;
 }
 #container{
-    position: relative;
-    top: -30%;
-    left: 15%;
-    /*margin-left: 220px;*/
+    margin-top: -15%;
+    margin-left: 220px;
 }
 .first{
     font-size: 1.0em;
@@ -789,7 +774,7 @@ hr{
     /*TECHNOLOGY*/
     .technology{
         position: relative;
-        bottom: 20%;
+        bottom: 10%;
         background: url(./technology/background-technology-tablet.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
@@ -814,6 +799,6 @@ hr{
     }
     #container{
         position: relative;
-        top: -5%;
+        top: -40%;
     }
 }
